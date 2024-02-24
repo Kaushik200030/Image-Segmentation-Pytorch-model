@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2E26762B8AA29800EE5BB0 /* Image_Segmentation_Pytorch_modelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E26752B8AA29800EE5BB0 /* Image_Segmentation_Pytorch_modelApp.swift */; };
+		3B2E26782B8AA29800EE5BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E26772B8AA29800EE5BB0 /* ContentView.swift */; };
+		3B2E267A2B8AA29900EE5BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E26792B8AA29900EE5BB0 /* Assets.xcassets */; };
+		3B2E267E2B8AA29900EE5BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E267D2B8AA29900EE5BB0 /* Preview Assets.xcassets */; };
+		3B2E26882B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E26872B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelTests.swift */; };
+		3B2E26922B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E26912B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITests.swift */; };
+		3B2E26942B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E26932B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2E26842B8AA29900EE5BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2E266A2B8AA29800EE5BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2E26712B8AA29800EE5BB0;
+			remoteInfo = "Image Segmentation Pytorch model";
+		};
+		3B2E268E2B8AA29900EE5BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2E266A2B8AA29800EE5BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2E26712B8AA29800EE5BB0;
+			remoteInfo = "Image Segmentation Pytorch model";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B2E26722B8AA29800EE5BB0 /* Image Segmentation Pytorch model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Segmentation Pytorch model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2E26752B8AA29800EE5BB0 /* Image_Segmentation_Pytorch_modelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Segmentation_Pytorch_modelApp.swift; sourceTree = "<group>"; };
+		3B2E26772B8AA29800EE5BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B2E26792B8AA29900EE5BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2E267B2B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_model.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Image_Segmentation_Pytorch_model.entitlements; sourceTree = "<group>"; };
+		3B2E267D2B8AA29900EE5BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B2E26832B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Segmentation Pytorch modelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2E26872B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Segmentation_Pytorch_modelTests.swift; sourceTree = "<group>"; };
+		3B2E268D2B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Segmentation Pytorch modelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2E26912B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Segmentation_Pytorch_modelUITests.swift; sourceTree = "<group>"; };
+		3B2E26932B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2E266F2B8AA29800EE5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E26802B8AA29900EE5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E268A2B8AA29900EE5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2E26692B8AA29800EE5BB0 = {
+			isa = PBXGroup;
+			children = (
+				3B2E26742B8AA29800EE5BB0 /* Image Segmentation Pytorch model */,
+				3B2E26862B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests */,
+				3B2E26902B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests */,
+				3B2E26732B8AA29800EE5BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2E26732B8AA29800EE5BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E26722B8AA29800EE5BB0 /* Image Segmentation Pytorch model.app */,
+				3B2E26832B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests.xctest */,
+				3B2E268D2B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2E26742B8AA29800EE5BB0 /* Image Segmentation Pytorch model */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E26752B8AA29800EE5BB0 /* Image_Segmentation_Pytorch_modelApp.swift */,
+				3B2E26772B8AA29800EE5BB0 /* ContentView.swift */,
+				3B2E26792B8AA29900EE5BB0 /* Assets.xcassets */,
+				3B2E267B2B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_model.entitlements */,
+				3B2E267C2B8AA29900EE5BB0 /* Preview Content */,
+			);
+			path = "Image Segmentation Pytorch model";
+			sourceTree = "<group>";
+		};
+		3B2E267C2B8AA29900EE5BB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E267D2B8AA29900EE5BB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B2E26862B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E26872B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelTests.swift */,
+			);
+			path = "Image Segmentation Pytorch modelTests";
+			sourceTree = "<group>";
+		};
+		3B2E26902B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E26912B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITests.swift */,
+				3B2E26932B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift */,
+			);
+			path = "Image Segmentation Pytorch modelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2E26712B8AA29800EE5BB0 /* Image Segmentation Pytorch model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2E26972B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch model" */;
+			buildPhases = (
+				3B2E266E2B8AA29800EE5BB0 /* Sources */,
+				3B2E266F2B8AA29800EE5BB0 /* Frameworks */,
+				3B2E26702B8AA29800EE5BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Segmentation Pytorch model";
+			productName = "Image Segmentation Pytorch model";
+			productReference = 3B2E26722B8AA29800EE5BB0 /* Image Segmentation Pytorch model.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B2E26822B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2E269A2B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch modelTests" */;
+			buildPhases = (
+				3B2E267F2B8AA29900EE5BB0 /* Sources */,
+				3B2E26802B8AA29900EE5BB0 /* Frameworks */,
+				3B2E26812B8AA29900EE5BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2E26852B8AA29900EE5BB0 /* PBXTargetDependency */,
+			);
+			name = "Image Segmentation Pytorch modelTests";
+			productName = "Image Segmentation Pytorch modelTests";
+			productReference = 3B2E26832B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B2E268C2B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2E269D2B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch modelUITests" */;
+			buildPhases = (
+				3B2E26892B8AA29900EE5BB0 /* Sources */,
+				3B2E268A2B8AA29900EE5BB0 /* Frameworks */,
+				3B2E268B2B8AA29900EE5BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2E268F2B8AA29900EE5BB0 /* PBXTargetDependency */,
+			);
+			name = "Image Segmentation Pytorch modelUITests";
+			productName = "Image Segmentation Pytorch modelUITests";
+			productReference = 3B2E268D2B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2E266A2B8AA29800EE5BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3B2E26712B8AA29800EE5BB0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3B2E26822B8AA29900EE5BB0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3B2E26712B8AA29800EE5BB0;
+					};
+					3B2E268C2B8AA29900EE5BB0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3B2E26712B8AA29800EE5BB0;
+					};
+				};
+			};
+			buildConfigurationList = 3B2E266D2B8AA29800EE5BB0 /* Build configuration list for PBXProject "Image Segmentation Pytorch model" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2E26692B8AA29800EE5BB0;
+			productRefGroup = 3B2E26732B8AA29800EE5BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2E26712B8AA29800EE5BB0 /* Image Segmentation Pytorch model */,
+				3B2E26822B8AA29900EE5BB0 /* Image Segmentation Pytorch modelTests */,
+				3B2E268C2B8AA29900EE5BB0 /* Image Segmentation Pytorch modelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2E26702B8AA29800EE5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E267E2B8AA29900EE5BB0 /* Preview Assets.xcassets in Resources */,
+				3B2E267A2B8AA29900EE5BB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E26812B8AA29900EE5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E268B2B8AA29900EE5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2E266E2B8AA29800EE5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E26782B8AA29800EE5BB0 /* ContentView.swift in Sources */,
+				3B2E26762B8AA29800EE5BB0 /* Image_Segmentation_Pytorch_modelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E267F2B8AA29900EE5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E26882B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2E26892B8AA29900EE5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E26942B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITestsLaunchTests.swift in Sources */,
+				3B2E26922B8AA29900EE5BB0 /* Image_Segmentation_Pytorch_modelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2E26852B8AA29900EE5BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2E26712B8AA29800EE5BB0 /* Image Segmentation Pytorch model */;
+			targetProxy = 3B2E26842B8AA29900EE5BB0 /* PBXContainerItemProxy */;
+		};
+		3B2E268F2B8AA29900EE5BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2E26712B8AA29800EE5BB0 /* Image Segmentation Pytorch model */;
+			targetProxy = 3B2E268E2B8AA29900EE5BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B2E26952B8AA29900EE5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2E26962B8AA29900EE5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3B2E26982B8AA29900EE5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Image Segmentation Pytorch model/Image_Segmentation_Pytorch_model.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Image Segmentation Pytorch model/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2E26992B8AA29900EE5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Image Segmentation Pytorch model/Image_Segmentation_Pytorch_model.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Image Segmentation Pytorch model/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B2E269B2B8AA29900EE5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-modelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Segmentation Pytorch model.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Image Segmentation Pytorch model";
+			};
+			name = Debug;
+		};
+		3B2E269C2B8AA29900EE5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-modelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Segmentation Pytorch model.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Image Segmentation Pytorch model";
+			};
+			name = Release;
+		};
+		3B2E269E2B8AA29900EE5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-modelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image Segmentation Pytorch model";
+			};
+			name = Debug;
+		};
+		3B2E269F2B8AA29900EE5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR4GVT75TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml-model.Image-Segmentation-Pytorch-modelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image Segmentation Pytorch model";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2E266D2B8AA29800EE5BB0 /* Build configuration list for PBXProject "Image Segmentation Pytorch model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E26952B8AA29900EE5BB0 /* Debug */,
+				3B2E26962B8AA29900EE5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2E26972B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E26982B8AA29900EE5BB0 /* Debug */,
+				3B2E26992B8AA29900EE5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2E269A2B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch modelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E269B2B8AA29900EE5BB0 /* Debug */,
+				3B2E269C2B8AA29900EE5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2E269D2B8AA29900EE5BB0 /* Build configuration list for PBXNativeTarget "Image Segmentation Pytorch modelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E269E2B8AA29900EE5BB0 /* Debug */,
+				3B2E269F2B8AA29900EE5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2E266A2B8AA29800EE5BB0 /* Project object */;
+}
